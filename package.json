@@ -45,5 +45,14 @@
     "i18n",
     "russian",
     "ru"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZHEEZL/deepseek-harness-locale-ru.git"
+  },
+  "homepage": "https://github.com/ZHEEZL/deepseek-harness-locale-ru#readme",
+  "bugs": {
+    "url": "https://github.com/ZHEEZL/deepseek-harness-locale-ru/issues"
+  },
+  "author": "ZHEEZL"
 }

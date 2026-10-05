@@ -1,5 +1,7 @@
 # dsh-locale-ru
 
+Unofficial Russian (ru) language pack for the DeepSeek Harness web GUI - https://github.com/ZHEEZL/deepseek-harness-locale-ru
+
 Russian (`ru`) language pack for the [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) web GUI.
 
 > **Unofficial.** Not affiliated with or endorsed by DeepSeek. Nothing in the
@@ -29,8 +31,8 @@ editing the application.
 ### Automatic (Windows)
 
 ```powershell
-git clone https://github.com/<you>/dsh-locale-ru
-cd dsh-locale-ru
+git clone https://github.com/ZHEEZL/deepseek-harness-locale-ru
+cd deepseek-harness-locale-ru
 pwsh -File tools/install.ps1
 ```
 
@@ -169,8 +171,8 @@ license.
 ### Автоматически (Windows)
 
 ```powershell
-git clone https://github.com/<you>/dsh-locale-ru
-cd dsh-locale-ru
+git clone https://github.com/ZHEEZL/deepseek-harness-locale-ru
+cd deepseek-harness-locale-ru
 pwsh -File tools/install.ps1
 ```
 
