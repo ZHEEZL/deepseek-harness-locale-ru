@@ -113,10 +113,9 @@ node tools/build.mjs --dicts dicts.json
 The audit fails on a missing namespace, a missing key, an unknown namespace, or a
 mismatched `{placeholder}`. `dicts.json` is derived data and is not committed.
 
-Style rules used for the translation - terminology glossary, typography, what to
-keep in Latin script - are worth keeping in mind for new keys: prefer short
-sentence-case wording, keep keyboard keys and product names as they are, and
-never translate text inside `{}`.
+New strings follow [docs/translation-style.md](docs/translation-style.md): short
+sentence-case wording, Latin keyboard keys and product names, and nothing
+translated inside `{}`.
 
 ## Known limitations
 
@@ -248,6 +247,9 @@ node tools/build.mjs --dicts dicts.json
 Аудит падает на пропущенном пространстве имён, пропущенном ключе, неизвестном
 пространстве имён или несовпадении `{placeholder}`. `dicts.json` — производные
 данные, в репозиторий не попадают.
+
+Правила перевода — терминология, типографика, что остаётся латиницей — описаны в
+[docs/translation-style.md](docs/translation-style.md).
 
 ## Известные ограничения
 
