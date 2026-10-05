@@ -1,6 +1,7 @@
-# dsh-locale-ru
+# deepseek-harness-locale-ru
+## Windows Version
 
-Unofficial Russian (ru) language pack for the DeepSeek Harness web GUI - https://github.com/ZHEEZL/deepseek-harness-locale-ru
+Unofficial Russian (ru) language pack for the Windows Version DeepSeek Harness web GUI - https://github.com/ZHEEZL/deepseek-harness-locale-ru
 
 Russian (`ru`) language pack for the [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) web GUI.
 
