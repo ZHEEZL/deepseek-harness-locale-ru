@@ -1,0 +1,19 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      # Renders lib/client.js from translations/ru.json, executes the bundle in a
+      # sandbox and asserts every namespace registers. The coverage audit against
+      # the application's own English copy is skipped here, because dicts.json is
+      # generated from a local installation and is intentionally not committed.
+      - run: node tools/build.mjs --check

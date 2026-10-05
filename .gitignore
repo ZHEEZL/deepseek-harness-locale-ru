@@ -1,0 +1,6 @@
+node_modules/
+
+# Regenerated from the installed application by tools/extract-dictionaries.mjs.
+dicts.json
+
+*.log

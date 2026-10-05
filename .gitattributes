@@ -1,0 +1,3 @@
+# Keep every tracked file at LF, including on Windows checkouts: lib/client.js is
+# generated and tools/build.mjs --check compares it byte for byte.
+* text=auto eol=lf
